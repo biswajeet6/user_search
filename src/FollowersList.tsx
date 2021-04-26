@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { IGitHubFollower } from './IGitHubFollower';
+import { IGitHubFollower } from './interfaces/IGitHubFollower';
 
 const FollowersList = (props: { followersUrl: string }) => {
     const { followersUrl } = props;
